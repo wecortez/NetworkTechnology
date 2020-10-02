@@ -1,0 +1,130 @@
+@import url('menu.css');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(243, 237, 237);
+}
+
+/* .contenedor-menu{
+    background-color: #000;
+}
+
+.contenedor-menu .menu{
+    text-align: center;
+}
+
+.contenedor-menu .menu ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+.contenedor-menu .menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.contenedor-menu .menu ul li a:hover{
+    color: #000;
+    background-color: #fff;
+} */
+
+.contenedor{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.contenedor .banner{
+    margin-top: 5px;
+}
+
+.contenedor .banner img{
+    width: 100%;
+}
+
+.contenedor .promociones{
+    text-align: center;
+    overflow: hidden;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+
+.contenedor .promociones section{
+    width: 32.77%;
+    background-color: orange;
+    display: inline-block;
+    /* float: left; */
+    padding-bottom: 10px;
+    margin: 10px 0.15% 10px 0.15%;
+}
+
+.contenedor .promociones section h1{
+    text-align: center;
+}
+
+.contenedor .promociones section article .imgtotal{
+    width: 100%;
+    background-color: #fff;
+}
+
+.contenedor .promociones section article .imgtotal img{
+    width: 137px;
+    height: 137px;
+    vertical-align: top;
+    padding: 10px 0 10px 0;
+}
+
+.contenedor .promociones section article p{
+    color: #fff;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.contenedor .promociones section article a{
+    text-decoration: none;
+    padding: 5px 40px;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+}
+
+.contenedor .promociones section article a:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+footer{
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    height: 50px;
+    background-color: #000;
+    color: #fff;
+    padding: 15px;
+    font-weight: bold;
+}
+/* tablet */
+@media all and (max-width:968px){
+    .contenedor{
+        width: 100%;
+        padding: 20px;
+    }
+    .contenedor .promociones section{
+        width: 48%;
+    }
+}
+/* mobil */
+@media all and (max-width:568px){
+    .contenedor .promociones section{
+        width: 100%;
+    }
+}
